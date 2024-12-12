@@ -1,0 +1,22 @@
+# sent_id = 1864
+# text = And I guess that ' s what happened.
+1	And	and	CCONJ	Conjunction	_	3	cc	3:cc	_	_	COORDINATING_CONJUNCTIONS
+2	I	I	PRON	Pronoun	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	_	Agent	BEING
+3	guess	guess	VERB	Verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_	Predicate	TO_GUESS
+4	that	that	PRON	Pronoun	Number=Sing|PronType=Dem	7	nsubj	5:det	_	Ch_Reference	CH_REFERENCE_AND_QUANTIFICATION
+5	#NULL	#NULL	NOUN	Noun	Number=Sing	_	_	7:nsubj	ellipsis	Relative	ENTITY_OR_SITUATION_PRONOUN
+6	'	'	PUNCT	PUNCT	_	3	punct	3:punct	_	_	_
+7	s	be	VERB	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	_	Object_Situation	BE
+8	what	what	PRON	Pronoun	PronType=Int	9	nsubj	9:nsubj	_	Object_Situation	ENTITY_OR_SITUATION_PRONOUN
+9	happened	happen	VERB	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	xcomp	7:xcomp	SpaceAfter=No	Correlative	TO_TAKE_PLACE
+10	.	.	PUNCT	PUNCT	_	3	punct	3:punct	_	_	_
+
+# sent_id = 6084
+# text = On that date, yes.
+1	#NULL	#NULL	VERB	Verb	Person=1|Tense=Pres|VerbForm=Inf	_	_	0:root	ellipsis	Predicate	SITUATION
+2	On	on	ADP	Preposition	_	4	case	4:case	_	_	PREPOSITION
+3	that	that	DET	Pronoun	Number=Sing|PronType=Dem	4	det	4:det	_	Ch_Reference	CH_REFERENCE_AND_QUANTIFICATION
+4	date	date	NOUN	Noun	Number=Sing	6	obl	1:obl	SpaceAfter=No	Time	TIME
+5	,	,	PUNCT	PUNCT	_	4	punct	4:punct	_	_	_
+6	yes	yes	PART	Particle	_	0	root	1:parataxis	SpaceAfter=No	SpeechEtiquette	DISCOURSIVE_UNITS
+7	.	.	PUNCT	PUNCT	_	6	punct	6:punct	_	_	_

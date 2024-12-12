@@ -1,0 +1,25 @@
+# sent_id = 8114
+# text = "That gets rounds of applause," according to Mr Graczyk.
+1	"	"	PUNCT	PUNCT	_	5	punct	5:punct	SpaceAfter=No	_	_
+2	#NULL	#NULL	VERB	Verb	Person=1|Tense=Pres|VerbForm=Inf	_	_	0:root	ellipsis	Predicate	SITUATION
+3	That	that	PRON	Pronoun	Number=Sing|PronType=Dem	5	nsubj	4:det	_	Ch_Reference	CH_REFERENCE_AND_QUANTIFICATION
+4	#NULL	#NULL	NOUN	Noun	Number=Sing	_	_	5:nsubj	ellipsis	Possessor_Metaphoric	ENTITY_OR_SITUATION_PRONOUN
+5	gets	get	VERB	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	2:obj	_	Predicate	TO_GET
+6	rounds	round	NOUN	Noun	Number=Plur	5	obj	5:obj	_	Object_Situation	PROCESS_AND_ITS_STAGES
+7	of	of	ADP	Preposition	_	8	case	8:case	_	_	PREPOSITION
+8	applause	applause	NOUN	Noun	Number=Sing	6	nmod	6:nmod:of	SpaceAfter=No	Object_Situation	TO_APPLAUD
+9	,	,	PUNCT	PUNCT	_	11	punct	11:punct	SpaceAfter=No	_	_
+10	"	"	PUNCT	PUNCT	_	5	punct	5:punct	_	_	_
+11	according	accord	VERB	Verb	VerbForm=Ger	5	advcl	2:advcl	_	Concurrent	CH_OF_CONNECTIONS
+12	to	to	ADP	Preposition	_	13	case	13:case	_	_	PREPOSITION
+13	Mr	Mr.	PROPN	Noun	Number=Sing	11	obl	11:obl:to	_	Correlative	BEING
+14	Graczyk	Graczyk	PROPN	Noun	Number=Sing	13	flat:name	13:flat:name	SpaceAfter=No	Name_Title	BEING
+15	.	.	PUNCT	PUNCT	_	5	punct	5:punct	_	_	_
+
+# sent_id = 3041
+# text = Soppy rubbish at best.
+1	Soppy	soppy	ADJ	Adjective	Degree=Pos	2	amod	2:amod	_	Characteristic	CH_EVALUATION_OF_HUMAN_TEMPER_AND_ACTIVITY
+2	rubbish	rubbish	NOUN	Noun	Number=Sing	0	root	0:root	_	Predicate_Noun	INFORMATION
+3	at	at	ADP	_	_	4	case	4:case	_	_	_
+4	best	best	ADJ	_	Degree=Sup	2	parataxis	2:parataxis	_	Parenthetical	DISCOURSIVE_UNITS
+5	.	.	PUNCT	PUNCT	_	2	punct	2:punct	_	_	_

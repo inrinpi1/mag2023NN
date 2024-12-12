@@ -1,0 +1,63 @@
+# sent_id = 317
+# text = Secondly through our 700,000 members who communicate with us. 
+1	Secondly	secondly	ADV	Adverb	_	5	parataxis	1.1:parataxis	_	Parenthetical	DISCOURSIVE_UNITS
+1.1	#NULL	#NULL	VERB	Verb	Person=1|Tense=Pres|VerbForm=Inf	_	_	0:root	ellipsis	Predicate	SITUATION
+2	through	through	ADP	Preposition	_	5	case	5:case	_	_	PREPOSITION
+3	our	our	PRON	Pronoun	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	Object_Relation	BEING
+4	700,000	700,000	NUM	Numeral	NumForm=Digit|NumType=Card	5	nummod	5:nummod	_	Quantity	CH_REFERENCE_AND_QUANTIFICATION
+5	members	member	NOUN	Noun	Number=Plur	0	root	1.1:obl	_	Instrument	BEING
+6	who	who	PRON	Pronoun	PronType=Rel	7	nsubj	7:nsubj	_	Agent	BEING
+7	communicate	communicate	VERB	Verb	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_	ParticipleRelativeClause	TO_COMMUNICATE
+8	with	with	ADP	Preposition	_	9	case	9:case	_	_	PREPOSITION
+9	us	we	PRON	Pronoun	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	obl	7:obl:with	SpaceAfter=No	ContrAgent	BEING
+10	.	.	PUNCT	PUNCT	_	5	punct	5:punct	_	_	_
+
+# sent_id = 442
+# text = Obviously we have failed in that. 
+1	Obviously	obviously	ADV	Adverb	_	4	advmod	4:advmod	_	Characteristic	MODALITY
+2	we	we	PRON	Pronoun	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	_	Experiencer	BEING
+3	have	have	AUX	Verb	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_	_	AUXILIARY_VERBS
+4	failed	fail	VERB	Verb	Tense=Past|VerbForm=Part	0	root	0:root	_	Predicate	MANAGE_FAIL_CONDITION
+5	in	in	ADP	Preposition	_	6	case	6.1:case	_	_	PREPOSITION
+6	that	that	PRON	Pronoun	Number=Sing|PronType=Dem	4	obl	6.1:det	SpaceAfter=No	Ch_Reference	CH_REFERENCE_AND_QUANTIFICATION
+6.1	#NULL	#NULL	NOUN	Noun	Number=Sing	_	_	4:obl:in	ellipsis	Sphere	ENTITY_OR_SITUATION_PRONOUN
+7	.	.	PUNCT	PUNCT	_	4	punct	4:punct	_	_	_
+
+# sent_id = 851
+# text = Serial truants make up one in 13 pupils. 
+1	Serial	serial	ADJ	Adjective	Degree=Pos	2	amod	2:amod	_	OrderInTimeAndSpace	CH_REFERENCE_AND_QUANTIFICATION
+2	truants	truant	NOUN	Noun	Number=Plur	3	nsubj	3:nsubj	_	Object	BEING
+3	make	make	VERB	Verb	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	Predicate	CONTAIN_INCLUDE_FORM
+4	up	up	ADP	Adverb	_	3	compound:prt	3:compound:prt	_	_	PHRASAL_PARTICLES
+5	one	one	NUM	Numeral	NumForm=Word|NumType=Card	3	obj	5.1:nummod	_	Quantity	CH_REFERENCE_AND_QUANTIFICATION
+5.1	#NULL	#NULL	NOUN	Noun	Number=Sing	_	_	3:obj	ellipsis	Possessor_Locative	BEING
+6	in	in	ADP	Preposition	_	8	case	8:case	_	_	PREPOSITION
+7	13	13	NUM	Numeral	NumForm=Digit|NumType=Card	8	nummod	8:nummod	_	Quantity	CH_REFERENCE_AND_QUANTIFICATION
+8	pupils	pupil	NOUN	Noun	Number=Plur	5	nmod	5.1:nmod	SpaceAfter=No	Elective	BEING
+9	.	.	PUNCT	PUNCT	_	3	punct	3:punct	_	_	_
+
+# sent_id = 8114
+# text = "That gets rounds of applause," according to Mr Graczyk.
+1	"	"	PUNCT	PUNCT	_	5	punct	5:punct	SpaceAfter=No	_	_
+2	#NULL	#NULL	VERB	Verb	Person=1|Tense=Pres|VerbForm=Inf	_	_	0:root	ellipsis	Predicate	SITUATION
+3	That	that	PRON	Pronoun	Number=Sing|PronType=Dem	5	nsubj	4:det	_	Ch_Reference	CH_REFERENCE_AND_QUANTIFICATION
+4	#NULL	#NULL	NOUN	Noun	Number=Sing	_	_	5:nsubj	ellipsis	Possessor_Metaphoric	ENTITY_OR_SITUATION_PRONOUN
+5	gets	get	VERB	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	2:obj	_	Predicate	TO_GET
+6	rounds	round	NOUN	Noun	Number=Plur	5	obj	5:obj	_	Object_Situation	PROCESS_AND_ITS_STAGES
+7	of	of	ADP	Preposition	_	8	case	8:case	_	_	PREPOSITION
+8	applause	applause	NOUN	Noun	Number=Sing	6	nmod	6:nmod:of	SpaceAfter=No	Object_Situation	TO_APPLAUD
+9	,	,	PUNCT	PUNCT	_	11	punct	11:punct	SpaceAfter=No	_	_
+10	"	"	PUNCT	PUNCT	_	5	punct	5:punct	_	_	_
+11	according	accord	VERB	Verb	VerbForm=Ger	5	advcl	2:advcl	_	Concurrent	CH_OF_CONNECTIONS
+12	to	to	ADP	Preposition	_	13	case	13:case	_	_	PREPOSITION
+13	Mr	Mr.	PROPN	Noun	Number=Sing	11	obl	11:obl:to	_	Correlative	BEING
+14	Graczyk	Graczyk	PROPN	Noun	Number=Sing	13	flat:name	13:flat:name	SpaceAfter=No	Name_Title	BEING
+15	.	.	PUNCT	PUNCT	_	5	punct	5:punct	_	_	_
+
+# sent_id = 3041
+# text = Soppy rubbish at best.
+1	Soppy	soppy	ADJ	Adjective	Degree=Pos	2	amod	2:amod	_	Characteristic	CH_EVALUATION_OF_HUMAN_TEMPER_AND_ACTIVITY
+2	rubbish	rubbish	NOUN	Noun	Number=Sing	0	root	0:root	_	Predicate_Noun	INFORMATION
+3	at	at	ADP	_	_	4	case	4:case	_	_	_
+4	best	best	ADJ	_	Degree=Sup	2	parataxis	2:parataxis	_	Parenthetical	DISCOURSIVE_UNITS
+5	.	.	PUNCT	PUNCT	_	2	punct	2:punct	_	_	_
